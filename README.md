@@ -27,5 +27,5 @@ Agregações e métricas de negócio
 
 As consultas SQL completas utilizadas neste projeto podem ser encontradas no arquivo:
 
-➡️ queries.sql
+queries.sql 
 
