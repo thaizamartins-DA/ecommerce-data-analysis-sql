@@ -22,3 +22,10 @@ JOINs entre múltiplas tabelas
 Funções analíticas (window functions)
 CTEs (Common Table Expressions)
 Agregações e métricas de negócio
+
+### 📂 Acesso ao código
+
+As consultas SQL completas utilizadas neste projeto podem ser encontradas no arquivo:
+
+➡️ queries.sql
+
