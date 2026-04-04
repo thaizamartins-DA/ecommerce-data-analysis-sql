@@ -1,8 +1,7 @@
--- =========================================
--- 📊 ANÁLISE DE DADOS - E-COMMERCE
--- =========================================
 
--- 🔹 1. TAXA DE SESSÕES COM PEDIDOS POR PAÍS
+--  ANÁLISE DE DADOS - E-COMMERCE
+
+--  1. TAXA DE SESSÕES COM PEDIDOS POR PAÍS
 SELECT 
   s.country,
   COUNT(DISTINCT o.ga_session_id) * 100 / COUNT(DISTINCT s.ga_session_id) AS session_with_orders_percent,
@@ -13,7 +12,7 @@ LEFT JOIN `DA.order` o
 GROUP BY s.country
 ORDER BY session_cnt DESC;
 
--- 🔹 2. TAXA DE ABERTURA DE E-MAIL
+--  2. TAXA DE ABERTURA DE E-MAIL
 SELECT
   es.letter_type,
   COUNT(DISTINCT es.id_message) AS email_sent_cnt,
@@ -25,7 +24,7 @@ LEFT JOIN `data-analytics-mate.DA.email_open` eo
 GROUP BY es.letter_type
 ORDER BY open_rate DESC;
 
--- 🔹 3. PRODUTOS MAIS VENDIDOS POR CATEGORIA
+--  3. PRODUTOS MAIS VENDIDOS POR CATEGORIA
 SELECT
   p.category,
   AVG(p.price) AS avg_price
@@ -33,7 +32,7 @@ FROM `data-analytics-mate.DA.product` p
 GROUP BY p.category
 ORDER BY avg_price DESC;
 
--- 🔹 4. RECEITA POR PAÍS (CATEGORIA BEDS)
+--  4. RECEITA POR PAÍS (CATEGORIA BEDS)
 SELECT
   sp.country,
   SUM(p.price) AS revenue,
@@ -47,7 +46,7 @@ WHERE LOWER(p.category) = 'beds'
 GROUP BY sp.country
 ORDER BY total_orders DESC;
 
--- 🔹 5. ENGAJAMENTO POR DISPOSITIVO
+--  5. ENGAJAMENTO POR DISPOSITIVO
 SELECT
   sp.device,
   SAFE_DIVIDE(
