@@ -28,7 +28,7 @@ The analysis supports data-driven decision-making by identifying performance pat
 
 ## 📸 Query Example
 
-![SQL Query](queries.sql)
+![SQL Query](bigquery_eccomerce)
 
 ## 🔗 Project Access
 [View SQL Queries](https://github.com/thaizamartins-DA/ecommerce-data-analysis-sql)
