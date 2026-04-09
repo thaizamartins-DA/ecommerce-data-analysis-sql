@@ -1,31 +1,34 @@
-- Análise de Dados de E-commerce com SQL
-Este projeto realiza uma análise exploratória de dados de um e-commerce com foco em entender o comportamento dos usuários, performance de vendas e eficiência de campanhas de marketing.
-- Objetivo do Projeto
-Identificar padrões de conversão, engajamento e receita para apoiar decisões estratégicas de negócio.
-- Tecnologias Utilizadas
-SQL (Google BigQuery)
-Banco de dados relacional
-- Análises Realizadas
-✔ Taxa de conversão de sessões em pedidos por país
-✔ Taxa de abertura de campanhas de e-mail
-✔ Receita por categoria e por país
-✔ Engajamento de usuários por dispositivo
-✔ Análise de comportamento de clientes e interações
-- Principais Insights
-Diferença relevante na conversão entre países
-Variação na performance de campanhas de e-mail
-Identificação de categorias com maior valor agregado
-Dispositivos com maior nível de engajamento
-- Sobre o Projeto
-Este projeto foi desenvolvido com foco em análise exploratória de dados, utilizando consultas SQL avançadas como:
-JOINs entre múltiplas tabelas
-Funções analíticas (window functions)
-CTEs (Common Table Expressions)
-Agregações e métricas de negócio
+# E-commerce Data Analysis (SQL)
 
-### 📂 Acesso ao código
+## 📊 Project Overview
+This project analyzes e-commerce data using SQL to identify customer behavior, sales performance, and marketing efficiency, generating insights to support data-driven decision-making.
 
-As consultas SQL completas utilizadas neste projeto podem ser encontradas no arquivo:
+## 🛠️ Skills & Tools
+- SQL (JOINs, CTEs, Window Functions)
+- Data Analysis
+- Data Cleaning
+- Business Metrics Analysis
 
-queries.sql 
+## 🔍 Analysis Performed
+- Conversion rate analysis by country
+- User engagement analysis (scroll behavior, sessions)
+- Email marketing performance (open rate, click/visit rate)
+- Revenue and product category analysis
+- Customer behavior and geographic distribution
+- Identification of key business patterns and trends
 
+## 📊 Key Insights
+- Revenue and engagement vary significantly by country
+- Email campaigns show performance variation depending on segmentation
+- User behavior differs across devices and operating systems
+- Sales concentration observed in specific product categories and regions
+
+## 💡 Business Impact
+The analysis supports data-driven decision-making by identifying performance patterns, optimizing marketing strategies, and improving commercial efficiency.
+
+## 📸 Query Example
+
+![SQL Query](queires.sql)
+
+## 🔗 Project Access
+[View SQL Queries](https://github.com/thaizamartins-DA/ecommerce-data-analysis-sql)
