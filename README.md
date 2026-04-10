@@ -31,4 +31,4 @@ The analysis supports data-driven decision-making by identifying performance pat
 ![SQL Query](bigquery_ecommerce.png)
 
 ## 🔗 Project Access
-[View SQL Queries](https://github.com/thaizamartins-DA/ecommerce-data-analysis-sql)
+[View SQL Queries](https://github.com/thaizamartins-DA/ecommerce-data-analysis-sql/commit/610a4722e4d93d8cfe041b782d7131f76e69659a)
