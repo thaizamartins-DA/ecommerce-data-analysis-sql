@@ -1,7 +1,8 @@
-# E-commerce Data Analysis (SQL)
+# E-commerce Data Analysis using SQL
 
 ## 📊 Project Overview
-This project analyzes e-commerce data using SQL to identify customer behavior, sales performance, and marketing efficiency, generating insights to support data-driven decision-making.
+This project analyzes e-commerce data using SQL to identify patterns in customer behavior, sales performance, and business metrics.
+The analysis focuses on extracting insights to support data-driven decision-making.
 
 ## 🛠️ Skills & Tools
 - SQL (JOINs, CTEs, Window Functions)
